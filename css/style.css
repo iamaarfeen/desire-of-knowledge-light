@@ -129,6 +129,13 @@ input:-webkit-autofill, input:-webkit-autofill:focus {
   flex-shrink: 0; box-shadow: 0 4px 14px rgba(124,58,237,0.35);
 }
 .brand-hex.small { width: 28px; height: 28px; font-size: 13px; border-radius: 7px; }
+/* Logo */
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 8px;
+}
 .brand-name { font-size: 16px; font-weight: 800; color: var(--text); line-height: 1.1; }
 .brand-sub { font-size: 9px; color: var(--purple); letter-spacing: 2px; text-transform: uppercase; }
 .nav-links { display: flex; align-items: center; gap: 4px; }
